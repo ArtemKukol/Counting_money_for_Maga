@@ -63,9 +63,11 @@ body {
 }
 
 table {
-	width: 20%;
+	width: 100%;
+  max-width: 500px;
 	border-collapse: collapse;
 	margin: auto;
+  overflow-x: auto;
 }
 
 th,
@@ -88,4 +90,9 @@ td {
 
 .summary input {
 	margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
 }

@@ -162,7 +162,7 @@ nominals.forEach(n => {
 
   row.innerHTML = `
     <div class="nominal">${n} ₽</div>
-    <input type="number" min="0" value="" data-n="${n}" />
+    <input type="number" min="0" step="1" inputmode="numeric" min="0" value="" data-n="${n}" />
     <div class="total" id="t-${n}">0</div>
   `;
 
